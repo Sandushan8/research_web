@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/header/Header";
 import Documents from "./components/documents/Documents";
@@ -9,7 +9,7 @@ import Introduction from "./components/introduction/Introduction";
 import Milestones from "./components/milestones/Milestones";
 import Team from "./components/team/Team";
 import ToolsAndTechnologies from "./components/toolsAndTechnologies/ToolsAndTechnologies";
-
+import Logo from "./assets/logo.png";
 const routes = [
   {
     path: "/",
@@ -97,6 +97,12 @@ const routes = [
 const router = createBrowserRouter(routes);
 
 function App() {
+  useEffect(() => {
+    const link = document.querySelector('link[rel="icon"]');
+    if (link) {
+      link.href = Logo;
+    }
+  }, []);
   return (
     <div className="App">
       <RouterProvider router={router} />
