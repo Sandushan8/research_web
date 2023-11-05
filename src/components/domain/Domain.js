@@ -395,14 +395,16 @@ export default function Domain() {
                         fontWeight: "bold",
                         marginBottom: 10,
                       }}>
-                      Identifying Negative Emotions using Text Analysis
+                      Sub Objective 1
                     </Card.Header>
                     <Card.Body>
                       <blockquote className="blockquote mb-0">
                         <p>
-                          Predicting negative emotion through text analysis and
-                          providing proper suggestions to reduce negative
-                          emotion.
+                          Creating predictive models capable of discerning
+                          emotions and stress levels using a multifaceted
+                          approach encompassing text analysis, voice
+                          recognition, facial emotion recognition, and Heart
+                          Rate Variability (HRV).
                         </p>
                       </blockquote>
                     </Card.Body>
@@ -422,14 +424,14 @@ export default function Domain() {
                         fontWeight: "bold",
                         marginBottom: 10,
                       }}>
-                      Identifying Negative Emotions using Voice Rythem
+                      Sub Objective 2
                     </Card.Header>
                     <Card.Body>
                       <blockquote className="blockquote mb-0">
                         <p>
-                          Achieving 96% of accuracy in preditcting emotion
-                          through voice increasing the number of features from
-                          the audio files.
+                          Formulating a mobile application designed to
+                          seamlessly intake and process textual input, vocal
+                          cues, facial images, and heart rate data.
                         </p>
                       </blockquote>
                     </Card.Body>
@@ -448,13 +450,14 @@ export default function Domain() {
                         fontWeight: "bold",
                         marginBottom: 10,
                       }}>
-                      Identifying Emotion of Low-Intensity Facial Expression
+                      Sub Objective 3
                     </Card.Header>
                     <Card.Body>
                       <blockquote className="blockquote mb-0">
                         <p>
-                          Achieving 95% of accuracy in predicting correct
-                          emotion of low-intensity facial expressions.
+                          Employing advanced analysis techniques to interpret
+                          the amalgamated data and predict emotional states and
+                          stress levels accurately.
                         </p>
                       </blockquote>
                     </Card.Body>
@@ -474,14 +477,15 @@ export default function Domain() {
                         fontWeight: "bold",
                         marginBottom: 10,
                       }}>
-                      Identifying Negative Stress using Heart Rate Variations
+                      Sub Objective 4
                     </Card.Header>
                     <Card.Body>
                       <blockquote className="blockquote mb-0">
                         <p>
-                          In addition to stress level, also considering the step
-                          count or the activeness to identify the negative
-                          stress.
+                          Offering tailored recommendations for activities and
+                          interventions should the system identify a user
+                          experiencing heightened levels of stress, providing
+                          personalized suggestions for mitigation and relief.
                         </p>
                       </blockquote>
                     </Card.Body>
