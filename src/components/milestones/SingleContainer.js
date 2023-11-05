@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export const SingleContainer = ({ left, date, topic, content, marks }) => {
+  const [rotate, setRotate] = useState(false);
   return (
     <div
       id={topic}
@@ -18,6 +21,7 @@ export const SingleContainer = ({ left, date, topic, content, marks }) => {
           width: "49.75%",
           backgroundColor: "#3371E3",
           padding: 20,
+          cursor: "pointer",
         }}>
         {left ? (
           <div
@@ -28,6 +32,8 @@ export const SingleContainer = ({ left, date, topic, content, marks }) => {
             // class={
             //   "notification is-light has-text-centered aos-init aos-animate"
             // }
+            onMouseOver={() => setRotate(true)}
+            onMouseLeave={() => setRotate(false)}
             style={{
               border: "1px solid black",
               height: "100%",
@@ -72,7 +78,19 @@ export const SingleContainer = ({ left, date, topic, content, marks }) => {
           width: "0.5%",
           backgroundColor: "black",
           minHeight: "100%",
-        }}></div>
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}>
+        <div
+          style={{
+            height: 20,
+            width: 10,
+            borderRadius: "50%",
+            backgroundColor: "lightGreen",
+            rotate: !rotate ? "45deg" : "135deg",
+          }}></div>
+      </div>
       <div
         id="rightCardContainer"
         style={{
@@ -81,12 +99,15 @@ export const SingleContainer = ({ left, date, topic, content, marks }) => {
           height: "100%",
           width: "49.75%",
           backgroundColor: "#3371E3",
+          cursor: "pointer",
           padding: 20,
         }}>
         {!left ? (
           <div
             id={topic}
             key={topic}
+            onMouseOver={() => setRotate(true)}
+            onMouseLeave={() => setRotate(false)}
             // data-aos="fade-up-left"
             // data-aos-delay="200"
             // class={

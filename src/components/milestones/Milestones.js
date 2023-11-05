@@ -9,7 +9,7 @@ export default function Milestones() {
       topic: "Project Proposal",
       content:
         "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
-      marks: "6",
+      marks: "12",
       alignment: true,
     },
     {
@@ -17,7 +17,7 @@ export default function Milestones() {
       topic: "Progress Presentation I",
       content:
         "Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.",
-      marks: "6",
+      marks: "15",
       alignment: false,
     },
     {
@@ -33,7 +33,7 @@ export default function Milestones() {
       topic: "Progress Presentation II",
       content:
         "Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.",
-      marks: "18",
+      marks: "12",
       alignment: false,
     },
 
@@ -42,7 +42,7 @@ export default function Milestones() {
       topic: "Logbook",
       content:
         "Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.",
-      marks: "3",
+      marks: "2",
       alignment: true,
     },
     {
