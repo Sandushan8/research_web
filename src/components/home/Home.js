@@ -46,6 +46,21 @@ export default function Home() {
           Learn More
         </button>
       )}
+      <div style={{
+        display:'flex',
+        flexDirection:'column',
+        gap:4
+      }}>
+      <p
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: 40,
+          color: hideElement1 && "#3371E3",
+        }}>
+        MindRelax
+        <br/>
+        </p>
       <p
         style={{
           textAlign: "center",
@@ -53,9 +68,10 @@ export default function Home() {
           fontSize: 30,
           color: hideElement1 && "#3371E3",
         }}>
-        MindRelax: Smart System for Emotion and Mental Stress Monitoring,
+         Smart System for Emotion and Mental Stress Monitoring,
         Detection and Management
       </p>
+      </div>
     </div>
   );
 }

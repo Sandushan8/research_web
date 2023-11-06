@@ -18,7 +18,7 @@ export default function Team() {
         overflowY: "auto",
         margin: 0,
         width: "100vw",
-        paddingBottom: 70,
+        paddingBottom: 90,
         backgroundColor: "#3371E3",
       }}>
       <div
@@ -45,7 +45,7 @@ export default function Team() {
           imageurl="./images/shiv.jpg"
           name="Shivaani Dushya R."
           redirection="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"
-          position="Member"
+          position="Leader"
           redirectionName="LinkedIn"
         />
         <Card
