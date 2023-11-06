@@ -118,6 +118,11 @@ export default function Example() {
             }}>
             Team
           </a>
+          <a
+          href="mailto:it20083328@my.sliit.lk?subject=Issue in research web"
+                  className="text-sm font-semibold leading-6 text-gray-900">
+                  Contact Us
+                </a>
         </Popover.Group>
       </nav>
 
@@ -180,6 +185,11 @@ export default function Example() {
                   href="/team"
                   className="-mx-3 block rounded-lg px-3 py-0 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                   Team
+                </a>
+                <a
+                  href="mailto:it20083328@my.sliit.lk?subject=Issue in web application"
+                  className="-mx-3 block rounded-lg px-3 py-0 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  Contact Us
                 </a>
               </div>
             </div>
