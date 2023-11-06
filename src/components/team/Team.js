@@ -12,7 +12,8 @@ export default function Team() {
   return (
     <div
       className=" mx-auto py-8 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-24  lg:grid-cols-1"
-      style={{
+        data-aos="fade-left"
+        style={{
         maxHeight: "100vh",
         overflowY: "auto",
         margin: 0,
@@ -21,7 +22,6 @@ export default function Team() {
         backgroundColor: "#3371E3",
       }}>
       <div
-        data-aos="fade-left"
         className="max-w-2xl mx-auto py-8 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-24 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2 ">
         <Card
           imageurl="./images/sup.jpg"
@@ -40,7 +40,6 @@ export default function Team() {
       </div>
 
       <div
-        data-aos="fade-right"
         className="max-w-2xl mx-auto py-8 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-4 ">
         <Card
           imageurl="./images/shiv.jpg"

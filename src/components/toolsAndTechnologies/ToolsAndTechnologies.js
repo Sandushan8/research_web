@@ -23,6 +23,7 @@ export default function ToolsAndTechnologies() {
         backgroundColor: "#3371E3",
         height: "100vh",
         textAlign: "center",
+        overflowY:'auto'
       }}>
       <h1
         class="text-3xl font-bold p-10"
